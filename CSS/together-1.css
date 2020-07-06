@@ -1,32 +1,48 @@
-h1{
-	font-size: 150%;
-	background: #B3B3B3;
-}
 header{
-	background: #666666;
-	text-align: center;
+  text-align: center;
+  background: #D3D3;
+  color: red;
+}
+a{
+/*   display: inline-block; */
+  width: 24%;
+  font-size: 150%;
+  font-variant: small-caps;
 }
 
-h1{
-	color: #FFFFFF;
-}
-nav{
-	font-variant: small-caps;
-	font-size: 150%;
-	font-family: Arial, "Time New Roman", Serif;
-}
 h2{
-	color: #666666;
-	background: #00B7EA;
-}
-details{
-	font-style: italic;
+  color: blue;
+  background: #00b7ea;
+  font-family: Arial;
 }
 
-summary{
-	font-style: normal;
+section{
+  background: #D3D3D3;
+  display: inline-block;
+  width: 30%;
+  float:left;
+  margin-right: 2%;
 }
 footer{
-	background: #666666;
-	/*text-align: center;*/
+  background: #D3D3;
+  height: 100px;
+  clear: both;
+}
+
+body{
+  background: #D3D3;
+  margin: 2%;
+  font-size: 150%
+}
+img{
+  width: 100px;
+}
+h1{
+  color: #ffffff;
+}
+details{
+  font-style:italic;
+}
+summary{
+  font-family: Arial;;
 }
